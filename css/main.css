@@ -1,0 +1,32 @@
+/* Main Styles */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.4;
+    color: #020300;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.images {
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    margin: 30px auto;
+}
+
+.lb-dataContainer {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: none;
+}
+
+.lb-caption {
+    max-width: 600px;
+}
