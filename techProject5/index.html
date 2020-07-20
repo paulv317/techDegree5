@@ -8,12 +8,6 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="js/lightbox/dist/css/lightbox.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function() {
-      $('#search').hideseek();
-      });
-    </script>
 </head>
 <body>
 
@@ -23,7 +17,7 @@
     <div class="container header">
       <h1>Image Gallery</h1>  
       <div class="container" id="searchWrapper">
-        <input id="search" name="searchBar" type="text" placeholder="Search.." data-list="captions">
+        <input id="search" name="search" onkeyup="search_captions()" type="text" placeholder="Search.." data-list="captions">
       </div>
     </div>
 
@@ -45,7 +39,6 @@
     <script src="js/jquery-3.5.1.min.js"></script>  
     <script src="js/lightbox/dist/js/lightbox.min.js"></script>  
     <script src="js/main.js"></script>
-    <script src="js/jquery.hideseek.min.js"></script>
     
     <script>
         lightbox.option({
