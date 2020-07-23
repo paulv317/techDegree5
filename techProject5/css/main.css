@@ -46,8 +46,8 @@ h1 {
 }
 
 .images {
-    width: 250px;
-    height: 250px;
+    width: 325px;
+    height: 325px;
     margin: 20px auto;
     border: 1px solid #F9F9F9;
     transition: transform .5s;
@@ -62,9 +62,24 @@ h1 {
 .lb-dataContainer {
     max-width: 60%;
     margin: 20px auto;
-    padding: none;
+    padding: 0;
 }
 
 .lb-caption {
     max-width: 600px;
+}
+
+@media(min-width: 500px) {
+
+    .images {
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+        border: 1px solid #F9F9F9;
+        transition: transform .5s;
+    }
+
+    .images:hover {
+        transform: scale(1.2);
+    }
 }
