@@ -60,13 +60,13 @@ h1 {
 /* Lightbox */
 
 .lb-dataContainer {
-    max-width: 60%;
-    margin: 20px auto;
+    max-width: 80%;
+    margin: 10px auto;
     padding: 0;
 }
 
 .lb-caption {
-    max-width: 600px;
+    max-width: 70%;
 }
 
 @media(min-width: 500px) {
@@ -82,4 +82,17 @@ h1 {
     .images:hover {
         transform: scale(1.2);
     }
+
+    .lb-dataContainer {
+        max-width: 60%;
+        margin: 20px auto;
+        padding: 0;
+    }
+    
+    .lb-caption {
+        max-width: 600px;
+    }
+
+
 }
+
